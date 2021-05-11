@@ -15,6 +15,11 @@
 * IntelliJ IDEA Community Edition
 * Код приложения **MoneyTransfer**
 
+В качестве тестовых данных использовался код приложения **MoneyTransfer**:
+* int balance = 2_000_000_000;
+  int transfer = 500_000_000;
+  int total = balance + transfer; **Exp.result is 2_500_000_000**
+
 Тестирование производилось в следующем окружении:
 * Устройство: Microsoft Surface Laptop 3
 * Windows 10
